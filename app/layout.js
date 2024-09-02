@@ -12,6 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={inter.className}>
+
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
       <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.wrapper select{
+  outline: none;
+}
+
+.form{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form input{
+  outline: none;
+  text-decoration: underline;
+}
+.form i{
+  cursor: pointer;
+}
+
+.setting{
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  position: absolute;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  bottom: 0;
+  margin: 20px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
